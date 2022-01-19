@@ -465,7 +465,14 @@ export class Bolnica
     {
         console.log("LISTA PACIJENATA!");
         const kontOdeljenja = document.createElement("div");
-        kontOdeljenja.className="kontOdeljenja";
+        kontOdeljenja.classList.add("kontOdeljenja");
+        if(this.naziv=="Atlas Klinika")
+        {
+            kontOdeljenja.classList.add("Atlas");
+        }else
+        {
+            kontOdeljenja.classList.add("Impuls");
+        }
         host.appendChild(kontOdeljenja);
         let red;
         let odeljenje;
@@ -741,9 +748,18 @@ export class Bolnica
 
     obrisiPrethodniSadrzaj()
     {
-        var formodlj=document.querySelector(".kontOdeljenja");
-        var roditelj=formodlj.parentNode;
-        roditelj.removeChild(formodlj);
+        if(this.naziv=="Atlas Klinika")
+        {
+            var formodlj=document.querySelector(".Atlas");
+            var roditelj=formodlj.parentNode;
+            roditelj.removeChild(formodlj);
+        }
+        else
+        {
+            var formodlj=document.querySelector(".Impuls");
+            var roditelj=formodlj.parentNode;
+            roditelj.removeChild(formodlj);
+        }
         //novo, prazno
         //formodlj=document.createElement("div");
         //formodlj.className="kontOdeljenja";
