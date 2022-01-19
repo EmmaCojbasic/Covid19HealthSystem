@@ -1,0 +1,58 @@
+INSERT INTO BOLNICA VALUES( 1, 'Atlas Klinika', 'Jurija Gagarina 45', 'Beograd');
+INSERT INTO BOLNICA VALUES( 3, 'Life impuls', 'Bulevar  Nemanjica 90', 'Nis');
+
+INSERT INTO ODELJENJE VALUES(1,'Intenzivna Nega', 4,4, 1);
+INSERT INTO ODELJENJE VALUES(3,'Poluintenzivna Nega', 3,8, 3);
+INSERT INTO ODELJENJE VALUES(4,'Poluintenzivna Nega', 1,4, 1);
+INSERT INTO ODELJENJE VALUES(5,'Intenzivna Nega', 2,8, 3);
+INSERT INTO ODELJENJE VALUES(1005,'Poluintenzivna Nega', 1,4, 3);
+INSERT INTO ODELJENJE VALUES(1006,'Intenzivna Nega', 5,8, 3);
+INSERT INTO ODELJENJE VALUES(1007,'Intenzivna Nega', 6,4, 3);
+INSERT INTO ODELJENJE VALUES(1008,'Intenzivna Nega', 4,8, 3);
+INSERT INTO ODELJENJE VALUES(1009,'Intenzivna Nega', 1,4, 1);
+INSERT INTO ODELJENJE VALUES(1010,'Intenzivna Nega', 3,8, 1);
+INSERT INTO ODELJENJE VALUES(1011,'Poluintenzivna Nega', 2,4, 1);
+INSERT INTO ODELJENJE VALUES(1012,'Poluintenzivna Nega', 5,8, 1);
+INSERT INTO ODELJENJE VALUES(1013,'Poluintenzivna Nega', 6,4, 1);
+INSERT INTO ODELJENJE VALUES(1016,'Poluintenzivna Nega', 2,8, 3);
+INSERT INTO ODELJENJE VALUES(1018,'Intenzivna Nega', 6,4, 1);
+
+INSERT INTO LEKAR VALUES( 1, 'Nadezda', 'Vesic', 35, 4, 'Hematolog');
+INSERT INTO LEKAR VALUES( 2, 'Nadica', 'Djordjievski', 23, 1, 'Pulmolog');
+INSERT INTO LEKAR VALUES( 3, 'Milena','Andric', 5,1005 'Anesteziolog');
+INSERT INTO LEKAR VALUES( 4, 'Olivera', 'Tomic', 8,3, 'Dermatolog');
+INSERT INTO LEKAR VALUES( 5, 'Teodora', 'Todorovic', 7,1007, 'Hematolog');
+INSERT INTO LEKAR VALUES( 6, 'Jasmina', 'Pesic', 8,1008, 'Kardiolog');
+INSERT INTO LEKAR VALUES( 7, 'Dusan', 'Minic', 29,1009, 'Endokrinolog');
+INSERT INTO LEKAR VALUES( 8, 'Dragana', 'Milosevic', 15,1011, 'Pulmolog');
+INSERT INTO LEKAR VALUES( 9, 'Draga', 'Dejanovic', 14,5, 'Endokrinolog');
+INSERT INTO LEKAR VALUES( 10, 'Aleksandar', 'Dejanovic', 10,1006 'Hirurg');
+INSERT INTO LEKAR VALUES( 11, 'Ilija', 'Damjanovic', 13,1010, 'Hirurg');
+INSERT INTO LEKAR VALUES( 12, 'Milos', 'Krstic', 13,1012, 'Pulmolog');
+INSERT INTO LEKAR VALUES( 13, 'Dragosav', 'Markovic', 27, 1013,'Anesteziolog');
+INSERT INTO LEKAR VALUES( 14, 'Radmila', 'Milosavljevic', 14,1016, 'Dermatolog');
+INSERT INTO LEKAR VALUES( 15, 'Aleksandra', 'Aleksandric', 32,1018, 'Kardiolog');
+
+INSERT INTO PACIJENT VALUES( 1, 'Jovan', 'Petrovic', 64, 78, 'Antigenski', 'Pozitivan', 1);
+INSERT INTO PACIJENT VALUES( 3, 'Novi', 'Novic', 69, 88, 'Antigenski', 'Pozitivan', 1);
+INSERT INTO PACIJENT VALUES( 1005, 'Lena', 'Lenic', 64, 90, 'PCR', 'Negativan', 5);
+INSERT INTO PACIJENT VALUES( 1006, 'Janko', 'Jankovic', 69, 88, 'Antigenski', 'Pozitivan', 5);
+INSERT INTO PACIJENT VALUES( 1007, 'Kosta', 'Kostic', 64, 90, 'PCR', 'Pozitivan', 3);
+INSERT INTO PACIJENT VALUES( 1008, 'Ivana', 'Novic', 69, 88, 'Antigenski', 'Negativan', 4);
+INSERT INTO PACIJENT VALUES( 1009, 'Ivana', 'Milovanovic', 64, 90, 'PCR', 'Pozitivan', 1006);
+INSERT INTO PACIJENT VALUES( 2001, 'Milan', 'Novkovic', 69, 88, 'Antigenski', 'Negativan', 1);
+INSERT INTO PACIJENT VALUES( 2002, 'Ivan', 'Milic', 64, 90, 'Antigenski', 'Pozitivan', 3);
+INSERT INTO PACIJENT VALUES( 2003, 'Novica', 'Petrovic', 69, 88, 'Antigenski', 'Negativan', 1007);
+INSERT INTO PACIJENT VALUES( 2004, 'Ljubisa', 'Milovanovic', 64, 70, 'PCR', 'Pozitivan', 1008);
+INSERT INTO PACIJENT VALUES( 2005, 'Ratko', 'Savic', 69, 88, 'Antigenski', 'Negativan', 1006);
+INSERT INTO PACIJENT VALUES( 2006, 'Tijana', 'Milovanovic', 64, 92, 'PCR', 'Pozitivan', 1009);
+INSERT INTO PACIJENT VALUES( 2007, 'Tina', 'Sekulic', 69, 88, 'Antigenski', 'Negativan', 1010);
+INSERT INTO PACIJENT VALUES( 2008, 'Milan', 'Misic', 64, 93, 'PCR', 'Pozitivan', 1011);
+INSERT INTO PACIJENT VALUES( 2009, 'Olga', 'Petrovic', 69, 88, 'Antigenski', 'Negativan', 1018);
+INSERT INTO PACIJENT VALUES( 2012, 'Ivan', 'Mitic', 64, 94, 'PCR', 'Pozitivan', 1012);
+INSERT INTO PACIJENT VALUES( 3002, 'Katarina', 'Mitrovic', 69, 88, 'Antigenski', 'Negativan', 4);
+INSERT INTO PACIJENT VALUES( 3003, 'Lea', 'Radovanovic', 64, 78, 'PCR', 'Pozitivan', 4);
+INSERT INTO PACIJENT VALUES( 3004, 'Nikola', 'Stanimirovic', 69, 88, 'Antigenski', 'Pozitivan', 1012);
+
+INSERT INTO OPREMA VALUES( 1, 'Respirator', 2008);
+INSERT INTO OPREMA VALUES( 2, 'HIGH FLOW', 2012);

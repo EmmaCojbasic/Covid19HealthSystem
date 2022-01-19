@@ -1,0 +1,204 @@
+.kontejner{
+    display: flex;
+    border:  1px solid black;
+}
+.kontCelo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+.kontCrtaj{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    height: 3cm;
+    border-collapse: collapse;
+    margin-top: 1cm;
+    margin-left: 3cm;
+    margin-bottom: 0.5cm;
+}
+.labelica{
+    align-self: center;
+    text-decoration: darkblue;
+    color: black;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.kontBolnica{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: center;
+    height: 7cm;
+}
+
+.kontBolnicaodlj{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgba(253, 252, 252, 0.904);
+    box-shadow: 5px 5px 5px;
+    border-radius: 30px ;
+}
+
+.kontCrtajodlj{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-left: 3cm;
+    margin-top: 0.5cm;
+    height: 7cm;
+}
+.zeleni{
+    flex-grow: 1;
+    border-color: black;
+    border-style: solid;
+    background-color: palevioletred;
+    font-family:monospace;
+    color: blanchedalmond;
+    text-align: center;
+    width: 0.5cm;
+}
+
+.prazni{
+    display: block;
+    flex-grow: 1;
+    border: 1px dotted black;
+    background-color: seashell;
+    text-align: center;
+    width: 0.5cm;
+    font-family:monospace;
+}
+.red{
+    display: flex;
+    flex-grow: 1;
+}
+body{
+    opacity: 90;
+    background: rgb(231,128,128);
+    background: radial-gradient(circle, rgba(231,128,128,0.5835376386882878) 0%, rgba(192,210,231,1) 100%);
+}
+.odlj{
+    border: 1px solid black;
+    flex: 1 1 10px;
+    margin: 5px;
+    text-align: center;
+}
+.brojevi{
+    width: 4cm;
+    margin-left: 3cm;
+    border-radius: 30px 0px;
+    margin-bottom: 0.2cm;
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: palevioletred;
+    box-shadow: 5px 5px 5px;
+}
+.poz{
+    display: inline-block;
+    margin-top: 0.2cm;
+    flex-grow: 1;
+    text-align: center;
+}
+.neg{
+    
+    flex-grow: 1;
+    text-align: center;
+}
+.num{
+    margin-top: 0.4cm;
+    font-size: 1.5cm;
+}
+.kontejnerstat
+{
+    height: 8cm;
+    border:1px solid black;
+    background-color:rgba(253, 252, 252, 0.904);
+    box-shadow: 5px 5px 5px;
+    border-radius: 30px;
+    display: flex;
+}
+.kontdivv{
+    
+    align-items: center;
+}
+.praznoodlj{
+    flex-grow: 1;
+    background-color: lightsteelblue;
+    border: 2px solid lightsteelblue;
+    width: 0.5cm;
+    height: 0.5cm;
+    margin-bottom: 2px;
+    margin-right: 5cm;
+}
+
+.roze{
+    flex-grow: 1;
+    border-color: black;
+    border-style: solid;
+    background-color: palevioletred;
+    text-align: center;
+    width: 0.5cm;
+    height: 0.5cm;
+    margin-bottom: 2px;
+    margin-right: 5cm;
+}
+
+.kontCrtajodlj{
+    align-items:flex-end;
+}
+
+.kontdivv{
+    margin-bottom: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+.kontejnerstatodeljenja
+{
+    display: flex;
+}
+.glavni{
+    display: flex;
+    flex-direction: column;
+    border-color: 1px salmon;
+}
+.div1{
+    flex-grow: 1;
+    height: 10cm;
+    border-color: 1px salmon;
+}
+.div2{
+    flex-grow: 1;
+    height: 10cm;
+    border-color: 1px salmon;
+}
+.labelaa{
+    margin-left: 1cm;
+}
+.nazad{
+    border-radius: 30px;
+    margin-bottom: 1cm;
+    position:absolute;
+    bottom: 10px;
+    left:2%;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+select{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 0.2cm;;
+}
+.dugme{
+    margin-left: 0.5cm;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}

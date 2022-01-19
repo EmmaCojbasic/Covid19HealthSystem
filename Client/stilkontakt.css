@@ -1,0 +1,75 @@
+body{
+    opacity: 90;
+    background: rgb(231,128,128);
+    background: radial-gradient(circle, rgba(231,128,128,0.5835376386882878) 0%, rgba(192,210,231,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+}
+.forma{
+    display: block;
+}
+input{
+    display: block;
+    margin-bottom: 0.5cm;
+    margin-left: 1cm;
+}
+textarea{
+    display: block;
+    margin-bottom: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+.dugme{
+    margin-left: 4.6cm;
+    border-radius: 30px 30px 30px 30px;
+    margin-top: 1cm;
+    align-self: center;
+}
+label{
+    margin-left: 1cm;
+    margin-top: 0.3cm;
+}
+.ceo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    flex-wrap: wrap-reverse;
+}
+.deo{
+    margin-right: 3cm;
+    margin-left:4cm;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+textarea{
+    width: 10cm;
+}
+.nazad{
+    border-radius: 30px;
+    margin-bottom: 1cm;
+    bottom: 10px;
+    left:2%;
+}
+.tel{
+    margin-bottom: 0.3cm;
+    margin-left: 0.5cm;
+}
+.poseti{
+    display:flex;
+    flex-direction: row;
+    margin-top: 0.2cm;
+    margin-left: 0.2cm;
+}
+.deo2{
+    margin-top: 1cm;
+    display: flex;
+    border-radius: 20px;
+    background: rgb(116,17,17);
+    background: radial-gradient(circle, rgba(116,17,17,0.5835376386882878) 0%, rgba(103,132,166,1) 100%);
+}
+.contact{
+    color:blueviolet;
+    margin-right: 0.3cm;
+}
