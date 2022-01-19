@@ -303,6 +303,8 @@ namespace web_projekat.Controllers
                 var odeljenje=await Context.Odeljenja.Where(p=>p.Lekari.FirstOrDefault().Ime==imelek && p.Lekari.FirstOrDefault().Prezime==prezimelek).FirstOrDefaultAsync();
                 var pacijent=await Context.Pacijenti.Where(p=>p.Ime==ime && p.Prezime==prezime && p.Odeljenje==odeljenje).FirstOrDefaultAsync();
                 int mbr=pacijent.MaticniBroj;
+                var oprema=await Context.Oprema.Where(p=>p.Pacijent.MaticniBroj==mbr).FirstOrDefaultAsync();
+                if(oprema!=null){Context.Oprema.Remove(oprema);}
                 Context.Pacijenti.Remove(pacijent);
                 await Context.SaveChangesAsync();
                 return Ok(await Context.Odeljenja.Select(p=> 
